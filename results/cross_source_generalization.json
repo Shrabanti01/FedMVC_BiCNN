@@ -1,0 +1,11 @@
+{
+  "train_sources": "1+2+3",
+  "test_source": "4 (Kaggle only)",
+  "train_size": 5913,
+  "test_size": 56859,
+  "acc": 80.03834045621625,
+  "dr": 95.90956083966378,
+  "fp": 10440,
+  "fn": 910,
+  "gap_vs_combined": 19.72517838344953
+}

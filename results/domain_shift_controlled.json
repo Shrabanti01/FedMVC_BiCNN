@@ -1,0 +1,50 @@
+{
+  "per_split": {
+    "control": {
+      "acc": 99.4,
+      "dr": 99.26470588235294,
+      "fp": 14,
+      "fn": 16,
+      "tp": 2160,
+      "tn": 2810
+    },
+    "loso_dataset3": {
+      "acc": 96.5,
+      "dr": 98.05641147191278,
+      "fp": 93,
+      "fn": 82,
+      "tp": 4137,
+      "tn": 688,
+      "n_train": 5000,
+      "n_test": 5000
+    },
+    "loso_dataset4": {
+      "acc": 82.76,
+      "dr": 95.87841318907779,
+      "fp": 782,
+      "fn": 80,
+      "tp": 1861,
+      "tn": 2277,
+      "n_train": 5000,
+      "n_test": 5000
+    }
+  },
+  "summary": {
+    "control_acc": 99.4,
+    "loso_mean_acc": 89.63,
+    "loso_min_acc": 82.76,
+    "loso_max_acc": 96.5,
+    "shift_gap_pp": 9.77000000000001,
+    "n_train_each": 5000,
+    "n_test_each": 5000,
+    "epochs": 6,
+    "runtime_seconds": 83.59580087661743
+  },
+  "source_column": "source",
+  "sources": [
+    "dataset1",
+    "dataset2",
+    "dataset3",
+    "dataset4"
+  ]
+}

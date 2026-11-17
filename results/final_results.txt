@@ -1,0 +1,18 @@
+FedMVC-BiCNN Final Results
+======================================================================
+Centralized: Acc=99.7635% DR=99.5506% FP=5 FN=25
+IID 3 clients: Acc=99.7714% DR=99.5506% FP=4 FN=25
+IID 5 clients: Acc=99.7872% DR=99.5686% FP=3 FN=24
+IID 10 clients: Acc=99.7714% DR=99.5326% FP=3 FN=26
+Non-IID 5 clients: Acc=99.7872% DR=99.5686% FP=3 FN=24
+
+Ablation Study:
+  View T only: Acc=99.7241% FP=7 FN=28
+  View C only: Acc=98.8807% FP=89 FN=53
+  View E only: Acc=99.7478% FP=9 FN=23
+  View T + C: Acc=99.7635% FP=3 FN=27
+  View T + E: Acc=99.7478% FP=5 FN=27
+  View C + E: Acc=99.7556% FP=7 FN=24
+  View T+C+E: Acc=99.7635% FP=5 FN=25
+
+Inference: 0.4759 ms per query, 2101 queries per second

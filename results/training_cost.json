@@ -1,0 +1,19 @@
+{
+  "model_mb_per_view": {
+    "T": 2.2155799865722656,
+    "C": 0.8731269836425781,
+    "E": 2.2155799865722656
+  },
+  "total_model_mb": 5.304286956787109,
+  "traffic_MB_K3_R5": 159.12860870361328,
+  "traffic_MB_K3_R10": 318.25721740722656,
+  "traffic_MB_K5_R5": 265.21434783935547,
+  "traffic_MB_K5_R10": 530.4286956787109,
+  "traffic_MB_K10_R5": 530.4286956787109,
+  "traffic_MB_K10_R10": 1060.8573913574219,
+  "fedbn_total_train_s": 1013.1688437461853,
+  "fedbn_per_round_s": 67.54458958307902,
+  "fedadam_total_train_s": 999.4776432514191,
+  "fedadam_per_round_s": 66.63184288342794,
+  "centralized_train_s": 356.0
+}
